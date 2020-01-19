@@ -1,4 +1,4 @@
-package com.oracle.entity;
+package com.oracle.o2o.entity;
 
 import java.util.Date;
 
