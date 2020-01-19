@@ -7,11 +7,8 @@ public class Area {
 	private Integer areaId;
 	// 名称
 	private String areaName;
-	@Override
-	public String toString() {
-		return "Area [areaId=" + areaId + ", areaName=" + areaName + ", priority=" + priority + ", createTime="
-				+ createTime + ", lastEditTime=" + lastEditTime + "]";
-	}
+
+
 
 	// 权重，越大越排前显示
 	private Integer priority;
@@ -58,5 +55,10 @@ public class Area {
 
 	public void setLastEditTime(Date lastEditTime) {
 		this.lastEditTime = lastEditTime;
+	}
+	@Override
+	public String toString() {
+		return "Area [areaId=" + areaId + ", areaName=" + areaName + ", priority=" + priority + ", createTime="
+				+ createTime + ", lastEditTime=" + lastEditTime + "]";
 	}
 }
