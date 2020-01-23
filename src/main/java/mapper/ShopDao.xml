@@ -34,5 +34,6 @@
 		</set>
 		where shop_id=#{shopId}
 	</update>
+	
 
 </mapper>

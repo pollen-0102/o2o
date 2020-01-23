@@ -2,7 +2,7 @@ package com.oracle.o2o.enums;
 
 public enum ShopStateEnum {
 	//枚举是限定了选择的范围
-	 Check(0,"审核中"),
+	 CHECK(0,"审核中"),
 	 OFFLINE(-1, "非法店铺"), 
 	 SUCCESS(1, "操作成功"),
 	 PASS(2, "通过认证"), 

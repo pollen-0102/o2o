@@ -62,6 +62,6 @@ public class ShopServiceImpl implements ShopService {
 		} catch (Exception e) {
 			throw new ShopOperationException("addShop error:" + e.getMessage());
 		}
-		return new ShopExecution(ShopStateEnum.Check, shop);
+		return new ShopExecution(ShopStateEnum.CHECK, shop);
 	}
 }

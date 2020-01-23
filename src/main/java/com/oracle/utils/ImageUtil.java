@@ -18,7 +18,6 @@ public class ImageUtil {
 	private static final SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
 	private static final Random r = new Random();
 	private static Logger logger = LoggerFactory.getLogger(ImageUtil.class);
-
 	/**
 	 * 将CommonsMultipartFile转换成File类
 	 * 
