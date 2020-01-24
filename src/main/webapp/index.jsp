@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,8 +19,7 @@
     <div class="page-group">
         <div class="page page-current">
         <!-- 你的html代码 -->
-        
-        <header class="bar bar-nav">
+		<header class="bar bar-nav">
   <h1 class='title'>表单</h1>
 </header>
 <div class="content">
