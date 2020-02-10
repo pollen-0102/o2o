@@ -1,7 +1,6 @@
 package com.oracle.o2o.dto;
 
 import java.io.InputStream;
-
 public class ImageHolder {
 
 	private String imageName;
